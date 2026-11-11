@@ -1,0 +1,3 @@
+interface:
+  display_name: "Claude 本地维护"
+  short_description: "审计、备份、清理和复查 Claude 本地及浏览器数据"
