@@ -1,6 +1,6 @@
 # Claude Local Maintenance（macOS）
 
-一个用于 Codex 的本地维护 skill，以文字命令扫描、清理和复查 Claude 与浏览器资料。它不是 Anthropic 官方项目，也不依赖“克劳德工作室清理助手”运行。
+一个用于 Codex 的本地维护 skill，以文字命令扫描、清理和复查 Claude 与浏览器资料。它不是 Anthropic 官方项目，也不依赖第三方桌面清理工具运行。
 
 > **注意：`clean` 默认永久删除，不创建恢复备份。** 如需保留可恢复副本，明确加 `--backup`。运行任何写操作前，请核对目标路径并退出相关应用。
 
