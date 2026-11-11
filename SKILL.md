@@ -1,6 +1,6 @@
 ---
 name: claude-local-maintenance
-description: 在 macOS 上用文字命令扫描、清理和复查 Claude 本地数据及浏览器资料，并执行克劳德工作室清理助手的 macOS 隐私设置功能。适用于用户要求复现该助手、核验清理结果或单独执行浏览器与系统隐私操作。
+description: 在 macOS 上用文字命令扫描、清理和复查 Claude 本地数据及浏览器资料，并执行相关 macOS 隐私设置功能。适用于用户要求维护或核验 Claude 本地状态、浏览器资料及系统隐私设置。
 ---
 
 # Claude 本地维护（macOS）
