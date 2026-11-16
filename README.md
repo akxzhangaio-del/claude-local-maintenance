@@ -13,7 +13,7 @@
 - 设置浏览器定位与 WebRTC、关闭 macOS 系统定位、同步代理出口的系统时区与区域。
 - 可选备份、列出备份和不覆盖现有文件的恢复。
 
-具体目标、命令与限制见 [SKILL.md](SKILL.md)。原软件的 Windows 专用 DNS / AdGuard 策略和网络急救不在 macOS 功能范围内；许可证验证及原软件自身更新也不属于本项目。
+具体目标、命令与限制见 [SKILL.md](SKILL.md)。Windows 用户可使用独立的 [Windows skill](windows/claude-local-maintenance-windows/SKILL.md)，其中已实现本地清理、部分隐私策略、AdGuard 策略和失效本机代理修复。Windows DNS 接管等尚未实现的功能在该文件中逐项列明。许可证验证及原软件自身更新不属于本项目。
 
 ## 安装
 
