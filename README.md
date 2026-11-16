@@ -15,6 +15,8 @@
 
 具体目标、命令与限制见 [SKILL.md](SKILL.md)。Windows 用户可使用独立的 [Windows skill](windows/claude-local-maintenance-windows/SKILL.md)，其中已实现本地清理、部分隐私策略、AdGuard 策略和失效本机代理修复。Windows DNS 接管等尚未实现的功能在该文件中逐项列明。许可证验证及原软件自身更新不属于本项目。
 
+Windows skill 另含可选的物理网卡防直连模块：仅阻断四个指定网段，支持开机启用；它不是覆盖全部 Claude 连接的 VPN 断线开关，且尚待 Windows 真机验证。
+
 ## 安装
 
 将仓库目录复制到 `~/.codex/skills/claude-local-maintenance`，重启或刷新 Codex 的 skill 列表，然后可说“使用 claude-local-maintenance 扫描 Claude 本地数据”。也可以直接运行脚本：
